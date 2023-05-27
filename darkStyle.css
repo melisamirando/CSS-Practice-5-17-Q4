@@ -1,0 +1,43 @@
+/* dark table styles */
+/*Add the necessary styling to make it simlar to the given table*/
+
+table.dark {
+  border: 1px solid #1a1a1a;
+  border-collapse: collapse;
+  padding: 5px;
+}
+.dark {
+  background-image: url(gradient.gif);
+  background: size 0%;
+}
+table.dark th {
+  background-color: #000;
+  border: 1px solid #1a1a1a;
+  color: white;
+  text-transform: uppercase;
+  font-family: helvetica;
+  text-align: left;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+table.dark td {
+  border: 1px solid #1a1a1a;
+  font-family: helvetica;
+  color: white;
+  font-size: small;
+  padding-top: 5px;
+  padding-bottom: 20px;
+  padding-left: 10px;
+  padding-right: 10px;
+  vertical-align: middle;
+}
+table.dark h4 {
+  font-weight: normal;
+  font-size: large;
+  margin-bottom: 0%;
+}
+table.dark td {
+  vertical-align: middle;
+}
